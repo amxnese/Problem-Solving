@@ -17,6 +17,11 @@ string sliceString (string str )
 }
 
 // Best Practice
-string sliceString (string str ){
+string sliceString1(string str ){
     return str.substr(1, str.size() - 2); 
+}
+
+string sliceString2(string str )
+{
+    return string(str.begin()+1,str.end()-1) ; 
 }
