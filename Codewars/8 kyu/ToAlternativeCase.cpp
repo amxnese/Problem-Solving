@@ -27,8 +27,6 @@ string to_alternating_case(string str)
 }
 
 // Best Practice
-#include <iostream>
-
 string to_alternating_case1(string str){
     for(auto& ch : str){
         ch = islower(ch) ? toupper(ch) : tolower(ch);
