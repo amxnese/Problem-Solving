@@ -16,7 +16,7 @@ for i in lst1:
   for j in lst2:
     lst3[n][k] += i[k]*j[n]
     k += 1
-
+print(lst3)
 
 # grabbing the diagonal of the matrix
 diagonal = []
@@ -24,5 +24,5 @@ n = 0
 for i in lst1:
   diagonal.append(i[n])
   n+=1
-print(diagonal)
-print(sum(diagonal))
+# print(diagonal)
+# print(sum(diagonal))
