@@ -1,0 +1,48 @@
+<library>
+    <book id="101">
+        <title>Python Basics</title>
+        <author>John Doe</author>
+        <genre>Programming</genre>
+        <price currency="USD">29.99</price>
+        <published>2023-01-15</published>
+    </book>
+    <book id="102">
+        <title>Advanced AI</title>
+        <author>Jane Smith</author>
+        <genre>Artificial Intelligence</genre>
+        <price currency="EUR">45.50</price>
+        <published>2022-10-01</published>
+    </book>
+    <book id="103">
+        <title>Web Development Guide</title>
+        <author>Bob Williams</author>
+        <genre>Web Development</genre>
+        <price currency="GBP">22.75</price>
+        <published>2020-06-20</published>
+        <publisher>TechBooks Ltd.</publisher>
+    </book>
+    <book id="104">
+        <title>Machine Learning Essentials</title>
+        <author>Alice Johnson</author>
+        <genre>Machine Learning</genre>
+        <price currency="USD">35.00</price>
+        <published>2023-07-10</published>
+        <rating>4.8</rating>
+    </book>
+    <magazine id="201">
+        <title>AI Monthly</title>
+        <editor>Dr. Emily Stone</editor>
+        <category>Technology</category>
+        <price currency="USD">5.99</price>
+        <published>2024-02-01</published>
+        <frequency>Monthly</frequency>
+    </magazine>
+    <magazine id="202">
+        <title>Coding Digest</title>
+        <editor>Michael Brown</editor>
+        <category>Programming</category>
+        <price currency="USD">7.99</price>
+        <published>2024-01-15</published>
+        <frequency>Bi-Monthly</frequency>
+    </magazine>
+</library>
