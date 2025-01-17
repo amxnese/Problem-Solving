@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1de2e2;
+}
+
+header {
+  color: white;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 24px;
+  background-color: #666;
+  margin: 0;
+}
+
+nav ul li {
+  width: 30%;
+  display: inline-grid;
+  font-size: 25px;
+  /* margin: 0 15px; */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 0px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.book {
+  background-color: white;
+  border: 1px solid #d9d6d6;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px #333;
+  padding: 15px;
+  text-align: center;
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.book h3 {
+  margin: 15px 0 10px;
+}
+
+.book p {
+  font-size: 16px;
+  color: #666;
+}
+
+button {
+  background-color: #35def4;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.book button:hover {
+  background-color: #00548b;
+  box-shadow: 0 4px 8px #333;
+}
+li:hover {
+  background-color: #00548b;
+  box-shadow: 0 4px 8px #333;
+}
+footer {
+  background-color: #666;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+}
